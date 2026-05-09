@@ -1,0 +1,57 @@
+body { 
+    background-color: #ffffff; /* cor de fundo branco */
+    font-family: 'Datatype'; /* fonte do google */
+    text-align: center; /* tudo centralizado */
+     }
+
+
+
+header {
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px; /* espaço entre a logo e o título do site*/
+    padding: 20px; /* tamanho do header */
+    background-color: #e8dfcb; /* cor do header */
+}
+header h1{ color: #5e2a27; /* cor do título */ }
+
+
+
+nav { background-color: #e8dfcb; /* cor do nav */ }
+
+
+nav a {
+        color: #95534f; /* cor das palavras */
+        text-decoration: none; /* tira o underline */
+        margin: 10px; /* espaço entre um link e outro */
+}
+
+nav a:hover { color: #e47f37; /* cor ao passar com o mouse por cima */ }
+
+
+main a{ color: #b87d79; /* cor das palavras */ }
+main a:hover { color: #d4834a; /* cor ao passar com o mouse por cima */ }
+section{ padding: 15px; /* espaço entre uma sessão e outra */ }
+footer{font-size: 12px; /* tamanho da letra */ }
+
+#ref{font-size: 12px; /* tamanho da letra */ }
+
+h2{color: #5e2a27; /* cor da letra */ }
+p{padding-bottom: 15px; /* espaço entre um parágrafo e outro */ }
+
+
+#dois{
+            /* flexbox */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            align-items: center;
+            gap: 0.5vw;
+            justify-content: space-evenly;
+            align-content: flex-start;
+}
