@@ -4,8 +4,6 @@ body {
     text-align: center; /* tudo centralizado */
      }
 
-
-
 header {
     /* flexbox */
     display: flex;
@@ -18,7 +16,6 @@ header {
     background-color: #e8dfcb; /* cor do header */
 }
 header h1{ color: #5e2a27; /* cor do título */ }
-
 
 
 nav { background-color: #e8dfcb; /* cor do nav */ }
@@ -35,6 +32,12 @@ nav a:hover { color: #e47f37; /* cor ao passar com o mouse por cima */ }
 
 main a{ color: #b87d79; /* cor das palavras */ }
 main a:hover { color: #d4834a; /* cor ao passar com o mouse por cima */ }
+
+.img{
+    width: 80vw;
+    height: auto;
+}
+
 section{ padding: 15px; /* espaço entre uma sessão e outra */ }
 footer{font-size: 12px; /* tamanho da letra */ }
 
