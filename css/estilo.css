@@ -34,7 +34,7 @@ main a{ color: #b87d79; /* cor das palavras */ }
 main a:hover { color: #d4834a; /* cor ao passar com o mouse por cima */ }
 
 .img{
-    width: 80vw;
+    width: 60vw;
     height: auto;
 }
 
